@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
-        <h1>{process.env.NEXT_PUBLIC_PRODUCTION}</h1>
+        <h1>{process.env.NEXT_PUBLIC_PREVIEW}</h1>
         <Image
           className={styles.logo}
           src="/next.svg"
